@@ -16,7 +16,24 @@
 		4D584D1125643576002409AC /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D584D1025643576002409AC /* MessengerViewController.swift */; };
 		4D584D1425643638002409AC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D584D1325643638002409AC /* ProfileViewController.swift */; };
 		4D584D1825643687002409AC /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D584D1725643687002409AC /* TravelViewController.swift */; };
-		4DAE1ED4256449F20059CE43 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE1ED3256449F20059CE43 /* .gitignore */; };
+		6134A60825726C3B009D8933 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A60725726C3B009D8933 /* ChatViewController.swift */; };
+		6134A60A25726C48009D8933 /* ChatConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A60925726C48009D8933 /* ChatConfigurator.swift */; };
+		6134A60C25726C53009D8933 /* ChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A60B25726C53009D8933 /* ChatRouter.swift */; };
+		6134A60E25726C5F009D8933 /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A60D25726C5F009D8933 /* ChatPresenter.swift */; };
+		6134A61025726C71009D8933 /* ChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A60F25726C71009D8933 /* ChatInteractor.swift */; };
+		6134A61225726C7B009D8933 /* ChatProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61125726C7B009D8933 /* ChatProtocols.swift */; };
+		6134A61425726CE1009D8933 /* ObserveChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61325726CE1009D8933 /* ObserveChatsViewController.swift */; };
+		6134A61625726CF5009D8933 /* ObserveChatsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61525726CF5009D8933 /* ObserveChatsConfigurator.swift */; };
+		6134A61825726D01009D8933 /* ObserveChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61725726D01009D8933 /* ObserveChatsRouter.swift */; };
+		6134A61A25726D0D009D8933 /* ObserveChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61925726D0D009D8933 /* ObserveChatsPresenter.swift */; };
+		6134A61C25726D19009D8933 /* ObserveChatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61B25726D19009D8933 /* ObserveChatsInteractor.swift */; };
+		6134A61E25726D25009D8933 /* ObserveChatsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61D25726D25009D8933 /* ObserveChatsProtocols.swift */; };
+		6134A62025726D6A009D8933 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A61F25726D6A009D8933 /* Message.swift */; };
+		6134A62225726D73009D8933 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A62125726D73009D8933 /* MessageCell.swift */; };
+		6134A62425726D7E009D8933 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A62325726D7E009D8933 /* UIColor.swift */; };
+		6134A62625726D8A009D8933 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A62525726D8A009D8933 /* User.swift */; };
+		6134A62825726D93009D8933 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134A62725726D93009D8933 /* UserCell.swift */; };
+		6134A62A25726E85009D8933 /* Messenger.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6134A62925726E85009D8933 /* Messenger.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +48,24 @@
 		4D584D1025643576002409AC /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
 		4D584D1325643638002409AC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4D584D1725643687002409AC /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
-		4DAE1ED3256449F20059CE43 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6134A60725726C3B009D8933 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6134A60925726C48009D8933 /* ChatConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConfigurator.swift; sourceTree = "<group>"; };
+		6134A60B25726C53009D8933 /* ChatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRouter.swift; sourceTree = "<group>"; };
+		6134A60D25726C5F009D8933 /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
+		6134A60F25726C71009D8933 /* ChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractor.swift; sourceTree = "<group>"; };
+		6134A61125726C7B009D8933 /* ChatProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProtocols.swift; sourceTree = "<group>"; };
+		6134A61325726CE1009D8933 /* ObserveChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveChatsViewController.swift; sourceTree = "<group>"; };
+		6134A61525726CF5009D8933 /* ObserveChatsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveChatsConfigurator.swift; sourceTree = "<group>"; };
+		6134A61725726D01009D8933 /* ObserveChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveChatsRouter.swift; sourceTree = "<group>"; };
+		6134A61925726D0D009D8933 /* ObserveChatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveChatsPresenter.swift; sourceTree = "<group>"; };
+		6134A61B25726D19009D8933 /* ObserveChatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveChatsInteractor.swift; sourceTree = "<group>"; };
+		6134A61D25726D25009D8933 /* ObserveChatsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveChatsProtocols.swift; sourceTree = "<group>"; };
+		6134A61F25726D6A009D8933 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6134A62125726D73009D8933 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6134A62325726D7E009D8933 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6134A62525726D8A009D8933 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6134A62725726D93009D8933 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		6134A62925726E85009D8933 /* Messenger.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Messenger.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +82,6 @@
 		4D584CD525641AB4002409AC = {
 			isa = PBXGroup;
 			children = (
-				4DAE1ED3256449F20059CE43 /* .gitignore */,
 				4D584CE025641AB4002409AC /* RentApp */,
 				4D584CDF25641AB4002409AC /* Products */,
 			);
@@ -114,7 +147,15 @@
 		4D584D20256443BC002409AC /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				6134A60625726BE5009D8933 /* ObserveChats */,
+				6134A60525726BDF009D8933 /* Chat */,
 				4D584D1025643576002409AC /* MessengerViewController.swift */,
+				6134A61F25726D6A009D8933 /* Message.swift */,
+				6134A62125726D73009D8933 /* MessageCell.swift */,
+				6134A62325726D7E009D8933 /* UIColor.swift */,
+				6134A62525726D8A009D8933 /* User.swift */,
+				6134A62725726D93009D8933 /* UserCell.swift */,
+				6134A62925726E85009D8933 /* Messenger.xcassets */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -125,6 +166,32 @@
 				4D584D1325643638002409AC /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		6134A60525726BDF009D8933 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6134A60725726C3B009D8933 /* ChatViewController.swift */,
+				6134A60925726C48009D8933 /* ChatConfigurator.swift */,
+				6134A60B25726C53009D8933 /* ChatRouter.swift */,
+				6134A60D25726C5F009D8933 /* ChatPresenter.swift */,
+				6134A60F25726C71009D8933 /* ChatInteractor.swift */,
+				6134A61125726C7B009D8933 /* ChatProtocols.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		6134A60625726BE5009D8933 /* ObserveChats */ = {
+			isa = PBXGroup;
+			children = (
+				6134A61325726CE1009D8933 /* ObserveChatsViewController.swift */,
+				6134A61525726CF5009D8933 /* ObserveChatsConfigurator.swift */,
+				6134A61725726D01009D8933 /* ObserveChatsRouter.swift */,
+				6134A61925726D0D009D8933 /* ObserveChatsPresenter.swift */,
+				6134A61B25726D19009D8933 /* ObserveChatsInteractor.swift */,
+				6134A61D25726D25009D8933 /* ObserveChatsProtocols.swift */,
+			);
+			path = ObserveChats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6134A62A25726E85009D8933 /* Messenger.xcassets in Resources */,
 				4D584CEE25641AB5002409AC /* LaunchScreen.storyboard in Resources */,
-				4DAE1ED4256449F20059CE43 /* .gitignore in Resources */,
 				4D584CEB25641AB5002409AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,11 +266,28 @@
 			files = (
 				4D584D1125643576002409AC /* MessengerViewController.swift in Sources */,
 				4D584CE225641AB4002409AC /* AppDelegate.swift in Sources */,
+				6134A61A25726D0D009D8933 /* ObserveChatsPresenter.swift in Sources */,
+				6134A61425726CE1009D8933 /* ObserveChatsViewController.swift in Sources */,
+				6134A60A25726C48009D8933 /* ChatConfigurator.swift in Sources */,
+				6134A60825726C3B009D8933 /* ChatViewController.swift in Sources */,
+				6134A60C25726C53009D8933 /* ChatRouter.swift in Sources */,
+				6134A62425726D7E009D8933 /* UIColor.swift in Sources */,
+				6134A62825726D93009D8933 /* UserCell.swift in Sources */,
 				4D584D1825643687002409AC /* TravelViewController.swift in Sources */,
+				6134A61025726C71009D8933 /* ChatInteractor.swift in Sources */,
 				4D584D092564247F002409AC /* SavesViewController.swift in Sources */,
+				6134A61E25726D25009D8933 /* ObserveChatsProtocols.swift in Sources */,
+				6134A60E25726C5F009D8933 /* ChatPresenter.swift in Sources */,
+				6134A61C25726D19009D8933 /* ObserveChatsInteractor.swift in Sources */,
 				4D584D1425643638002409AC /* ProfileViewController.swift in Sources */,
 				4D584D0625642446002409AC /* SearchViewController.swift in Sources */,
+				6134A61625726CF5009D8933 /* ObserveChatsConfigurator.swift in Sources */,
+				6134A61825726D01009D8933 /* ObserveChatsRouter.swift in Sources */,
+				6134A62025726D6A009D8933 /* Message.swift in Sources */,
+				6134A61225726C7B009D8933 /* ChatProtocols.swift in Sources */,
 				4D584D03256422A6002409AC /* MainTabBarController.swift in Sources */,
+				6134A62225726D73009D8933 /* MessageCell.swift in Sources */,
+				6134A62625726D8A009D8933 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 447T8G58V5;
 				INFOPLIST_FILE = RentApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 447T8G58V5;
 				INFOPLIST_FILE = RentApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
