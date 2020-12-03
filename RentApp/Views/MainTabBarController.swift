@@ -7,43 +7,41 @@
 
 import UIKit
 
+
 class MainTabBarController: UITabBarController {
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Main Views
-        
-        let searchVC = SearchViewController()
-        let savesVC = SavesViewController()
-        let travelVC = TravelViewController()
-        let messengerVC = MessengerViewController()
-        let profileVC = ProfileViewController()
+        installationAllViewControllers()
+        customizationTabBar()
+      }
     
+    
+    // MARK: - Private Methods
+    
+    private func customizationTabBar() {
+        tabBar.tintColor = .systemPink
+    }
+    
+    private func installationViewController(rootViewController: UIViewController, title: String, image: UIImage) -> UIViewController {
+        let navigationVC = UINavigationController(rootViewController: rootViewController)
+        navigationVC.tabBarItem.title = title
+        navigationVC.tabBarItem.image = image
+        return navigationVC
+    }
+    
+    private func installationAllViewControllers() {
+        
         viewControllers = [
-            searchVC,
-            savesVC,
-            travelVC,
-            messengerVC,
-            profileVC
+            installationViewController(rootViewController: SearchViewController(), title: "Search", image: UIImage(systemName: "magnifyingglass")!),
+            installationViewController(rootViewController: SavesViewController(), title: "Saves", image: UIImage(systemName: "heart")!),
+            installationViewController(rootViewController: TravelViewController(), title: "Travel", image: UIImage(systemName: "x.square")!),
+            installationViewController(rootViewController: MessengerViewController(), title: "Inbox", image: UIImage(systemName: "bubble.right")!),
+            installationViewController(rootViewController: ProfileViewController(), title: "Profile", image: UIImage(systemName: "person")!)
         ]
         
-        // View
-        
-        tabBar.tintColor = .systemPink
-        
-        
-        searchVC.tabBarItem.title = "Search"
-        savesVC.tabBarItem.title = "Saves"
-        travelVC.tabBarItem.title = "Travel"
-        messengerVC.tabBarItem.title = "Inbox"
-        profileVC.tabBarItem.title = "Profile"
-        
-        searchVC.tabBarItem.image = UIImage(systemName: "magnifyingglass")
-        savesVC.tabBarItem.image = UIImage(systemName: "heart")
-        travelVC.tabBarItem.image = UIImage(systemName: "x.square")
-        messengerVC.tabBarItem.image = UIImage(systemName: "bubble.right")
-        profileVC.tabBarItem.image = UIImage(systemName: "person")
-        
-    }
+        }
 }
