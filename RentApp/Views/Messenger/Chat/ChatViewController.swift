@@ -128,6 +128,7 @@ class ChatViewController: UICollectionViewController, ChatViewProtocol, UITextFi
         self.inputMessageField.text = nil
     }
     
+    
     private func setUserName(name: String) {
         self.navigationItem.title = name
     }

@@ -17,7 +17,6 @@ class MainTabBarController: UITabBarController {
         let searchVC = SearchViewController()
         let savesVC = SavesViewController()
         let travelVC = TravelViewController()
-        //let messengerVC = MessengerViewController()
         let messengerVC = ObserveChatsViewController()
         let navigationChats = UINavigationController(rootViewController: messengerVC)
         let profileVC = ProfileViewController()
