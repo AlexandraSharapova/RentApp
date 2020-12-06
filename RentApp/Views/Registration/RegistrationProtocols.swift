@@ -24,7 +24,7 @@ protocol RegistrationRouterProtocol: class {
 protocol RegistrationPresenterProtocol: class {
     var router: RegistrationRouterProtocol! {set get}
     func configureView()
-    func registration(email: String, password: String, age: String)
+    func registration(email: String, password: String, phone: String, age: String)
     func openApp()
     func backAction()
     
@@ -32,6 +32,6 @@ protocol RegistrationPresenterProtocol: class {
 }
 
 protocol RegistrationInteractorProtocol {
-    func regAction(email: String, password: String, age: String)
+    func regAction(email: String, password: String, phone: String, age: String)
     
 }

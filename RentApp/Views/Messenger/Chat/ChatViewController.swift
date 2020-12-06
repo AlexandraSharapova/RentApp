@@ -96,7 +96,7 @@ class ChatViewController: UICollectionViewController, ChatViewProtocol, UITextFi
         view.addSubview(containerView)
         
         containerView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-        containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -80).isActive = true
+        containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: (0-((tabBarController?.tabBar.bounds.height)!))).isActive = true
         containerView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         containerView.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
@@ -117,6 +117,7 @@ class ChatViewController: UICollectionViewController, ChatViewProtocol, UITextFi
         inputMessageField.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
         inputMessageField.rightAnchor.constraint(equalTo: sendButton.leftAnchor).isActive = true
         inputMessageField.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
+        
         
     }
     @objc func sendMessage() {

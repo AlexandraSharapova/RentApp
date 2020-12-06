@@ -22,10 +22,17 @@ class LoginInteractor: LoginInteractorProtocol {
     func loginAction(email: String, password: String) {
         FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
             if error != nil {
+                print(error.debugDescription)
+                
+                
                 return
             }
             self.presenter.openApp()
         })
+        
+    }
+    
+    private func showAlert() {
         
     }
     

@@ -20,8 +20,8 @@ class RegistrationPresenter: RegistrationPresenterProtocol {
         view.setView()
     }
     
-    func registration(email: String, password: String, age: String) {
-        interactor.regAction(email: email, password: password, age: age)
+    func registration(email: String, password: String, phone: String, age: String) {
+        interactor.regAction(email: email, password: password, phone: phone, age: age)
     }
     
     func openApp() {

@@ -24,9 +24,14 @@ class LoginRouter: LoginRouterProtocol {
     }
     
     func openRegistrationController() {
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.makeKeyAndVisible()
-        self.window?.rootViewController = RegistrationViewController()
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.makeKeyAndVisible()
+//        self.window?.rootViewController = RegistrationViewController()
+        
+        
+        let controller = RegistrationViewController()
+        controller.modalPresentationStyle = .popover
+        self.viewController?.present(controller, animated: true, completion: nil)
     }
     
     

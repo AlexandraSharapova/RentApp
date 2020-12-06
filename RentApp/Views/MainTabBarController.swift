@@ -33,7 +33,6 @@ class MainTabBarController: UITabBarController {
         
         tabBar.tintColor = .systemPink
         
-        
         searchVC.tabBarItem.title = "Search"
         savesVC.tabBarItem.title = "Saves"
         travelVC.tabBarItem.title = "Travel"
@@ -47,4 +46,6 @@ class MainTabBarController: UITabBarController {
         profileVC.tabBarItem.image = UIImage(systemName: "person")
         
     }
+    
+    
 }

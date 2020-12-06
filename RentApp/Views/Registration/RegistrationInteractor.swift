@@ -17,7 +17,7 @@ required init(presenter: RegistrationPresenterProtocol) {
     self.presenter = presenter
 }
     
-    func regAction(email: String, password: String, age: String) {
+    func regAction(email: String, password: String, phone: String, age: String) {
         FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
             
             if error != nil {
@@ -29,7 +29,7 @@ required init(presenter: RegistrationPresenterProtocol) {
             let reference = FirebaseDatabase.Database.database().reference(fromURL: "https://rentapp-fd8c6-default-rtdb.firebaseio.com/")
             let userReference = reference.child("user").childByAutoId()
             
-            let values = ["email": email, "password": password, "age": age]
+            let values = ["email": email, "password": password,"phone number":phone, "age": age]
             userReference.updateChildValues(values, withCompletionBlock:  {(error, reference) in
                 if error != nil {
                     print(error)

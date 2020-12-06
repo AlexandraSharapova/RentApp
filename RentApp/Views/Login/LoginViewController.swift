@@ -71,7 +71,7 @@ class LoginViewController: UIViewController, LoginViewProtocol {
     
     let regTextField: UILabel = {
         let title = UILabel()
-        title.text = "Зарегестрируйтесь!"
+        title.text = "Нет аккаунта? Зарегестрируйтесь!"
         title.textAlignment = NSTextAlignment.center
         title.textColor = UIColor(r: 20, g: 3, b: 22, a: 1)
         title.font = UIFont.boldSystemFont(ofSize: 12)
@@ -174,7 +174,7 @@ class LoginViewController: UIViewController, LoginViewProtocol {
     
     
     private func setbackgroundImage() {
-        let background = UIImage(named: "backgound.jpg")
+        let background = UIImage(named: "bground.jpg")
         
         var imageView: UIImageView!
         imageView = UIImageView(frame: self.view.bounds)
