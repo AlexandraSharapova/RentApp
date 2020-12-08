@@ -6,9 +6,8 @@
 //
 
 import UIKit
-import Firebase
-@UIApplicationMain
-//@main
+
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -17,9 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.makeKeyAndVisible()
-        //self.window?.rootViewController = MainTabBarController()
-        self.window?.rootViewController = LoginViewController()
-        FirebaseApp.configure()
+        self.window?.rootViewController = MainTabBarController()
         return true
     }
 }
