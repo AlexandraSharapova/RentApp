@@ -17,15 +17,14 @@ class MainTabBarController: UITabBarController {
         let searchVC = SearchViewController()
         let savesVC = SavesViewController()
         let travelVC = TravelViewController()
-        let messengerVC = ObserveChatsViewController()
-        let navigationChats = UINavigationController(rootViewController: messengerVC)
+        let messengerVC = MessengerViewController()
         let profileVC = ProfileViewController()
     
         viewControllers = [
             searchVC,
             savesVC,
             travelVC,
-            navigationChats,
+            messengerVC,
             profileVC
         ]
         
@@ -33,19 +32,18 @@ class MainTabBarController: UITabBarController {
         
         tabBar.tintColor = .systemPink
         
+        
         searchVC.tabBarItem.title = "Search"
         savesVC.tabBarItem.title = "Saves"
         travelVC.tabBarItem.title = "Travel"
-        navigationChats.tabBarItem.title = "Inbox"
+        messengerVC.tabBarItem.title = "Inbox"
         profileVC.tabBarItem.title = "Profile"
         
         searchVC.tabBarItem.image = UIImage(systemName: "magnifyingglass")
         savesVC.tabBarItem.image = UIImage(systemName: "heart")
         travelVC.tabBarItem.image = UIImage(systemName: "x.square")
-        navigationChats.tabBarItem.image = UIImage(systemName: "bubble.right")
+        messengerVC.tabBarItem.image = UIImage(systemName: "bubble.right")
         profileVC.tabBarItem.image = UIImage(systemName: "person")
         
     }
-    
-    
 }

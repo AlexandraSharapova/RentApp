@@ -1,17 +1,17 @@
-////
-////  MessengerViewController.swift
-////  RentApp
-////
-////  Created by Савва Шулятьев on 17.11.2020.
-////
 //
-//import UIKit
+//  MessengerViewController.swift
+//  RentApp
 //
-//class MessengerViewController: UIViewController {
+//  Created by Савва Шулятьев on 17.11.2020.
 //
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        view.backgroundColor = .green
-//    }
-//}
+
+import UIKit
+
+class MessengerViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .green
+    }
+}
